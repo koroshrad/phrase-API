@@ -1,7 +1,7 @@
 package org.example.repo;
 
-import org.example.entity.User;
+import org.example.entity.TmsAccount;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepository extends JpaRepository<User, String> {
+public interface TmsAccountRepository extends JpaRepository<TmsAccount, Long> {
 }
